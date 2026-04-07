@@ -28,7 +28,13 @@
     padding: 10px;
 }
 
-.navegacao
+.navegacao ul {
+    list-style: none;
+    padding:0;
+}
+.navecao li {
+    margin-bottom: 10px;
+}
 
 .secao {
     background-color: chocolate;

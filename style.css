@@ -8,8 +8,8 @@
     flex-direction: column;
 }
 .cabecalho {
-    background-color: rgb(81, 255, 0);
-    color: rgb(11, 55, 112);
+    background-color: rgb(97, 241, 30);
+    color: rgb(75, 139, 216);
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -17,12 +17,16 @@
 }
 
 .menu a {
-    color:white;
+    color:rgb(196, 209, 8);
     text-decoration: none;
     margin-left: 15px;
 }
+.conteudo{
+    display: flex;
+    height: 200px;prova
+}
 .navegacao {
-    background-color: rgb(15, 99, 209);
+    background-color: rgb(127, 197, 214);
     display: inline-block;
     width: 30%;
     padding: 10px;
@@ -37,7 +41,10 @@
 }
 
 .secao {
-    background-color: chocolate;
+    background-color: rgb(231, 16, 16);
+    display: inline-block;
+    width:70%;
+    padding:10px;
 }
 
 .rodape {

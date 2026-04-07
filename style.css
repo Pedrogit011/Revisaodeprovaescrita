@@ -11,17 +11,24 @@
     background-color: rgb(81, 255, 0);
     color: rgb(11, 55, 112);
     padding: 10px;
+    display: flex;
     justify-content: space-between;
     align-items: center
 }
 
+.menu a {
+    color:white;
+    text-decoration: none;
+    margin-left: 15px;
+}
 .navegacao {
     background-color: rgb(15, 99, 209);
-    back
     display: inline-block;
-    width: 30%
+    width: 30%;
     padding: 10px;
 }
+
+.navegacao
 
 .secao {
     background-color: chocolate;

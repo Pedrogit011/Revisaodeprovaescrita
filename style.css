@@ -1,32 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.grupo{
+.grupo {
     display: flex;
     flex-direction: column;
 }
+
 .cabecalho {
-    background-color: rgb(97, 241, 30);
-    color: rgb(75, 139, 216);
+    background-color: #12ddaa;
+    color: #fff;
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
 }
 
 .menu a {
-    color:rgb(196, 209, 8);
+    color: #fff;
     text-decoration: none;
     margin-left: 15px;
 }
-.conteudo{
-    display: flex;
-    height: 200px;
+
+.menu a:hover {
+    color: red;
 }
+
+.conteudo {
+    display: flex;
+}
+
 .navegacao {
-    background-color: rgb(127, 197, 214);
+    background-color: #ad5566;
     display: inline-block;
     width: 30%;
     padding: 10px;
@@ -34,37 +40,43 @@
 
 .navegacao ul {
     list-style: none;
-    padding:0;
+    padding: 0;
 }
-.navecao li {
+
+.navegacao li {
     margin-bottom: 10px;
 }
 
 .secao {
-    background-color: rgb(231, 16, 16);
+    background-color: #32a97c;
     display: inline-block;
-    width:70%;
-    padding:10px;
+    width: 70%;
+    padding: 10px;
 }
+
 .secao p {
     margin-bottom: 10px;
 }
+
 .formulario {
     margin-bottom: 10px;
 }
+
 .rodape {
-    background-color: rgb(224, 13, 136);
+    background-color: #00ddff;
     height: 70px;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .redes {
     display: flex;
     align-items: center;
 }
-.redes img{
+
+.redes img {
     margin-left: 10px;
     width: 20px;
     height: 20px;
@@ -75,7 +87,9 @@
     gap: 5px;
     text-decoration: none;
 }
-redes a:hover {
+
+.redes a:hover {
     color: #fff;
     opacity: 0.7;
 }
+    

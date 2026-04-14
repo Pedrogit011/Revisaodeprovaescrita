@@ -1,68 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revisão</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div class="grupo">
         <header class="cabecalho">
             <h1>Site de Revisão</h1>
-            <nav class="Menu">
-                <a href="#">Inicio</a>
+            <nav class="menu">
+                <a href="#">Início</a>
                 <a href="#">Sobre</a>
-                <a href="#">Contato</a>
+                <a href="#">Contatos</a>
             </nav>
         </header>
-        <div claas="conteudo">
+        <div class="conteudo">
             <nav class="navegacao">
                 <h2>Menu Lateral</h2>
                 <ul>
-                    <li href="#">Perfil</li>
-                    <li href="#">Configurações</li>
-                    <li href="#">Ajuda</li>
+                    <li>Perfil</li>
+                    <li>Configurações</li>
+                    <li>Ajuda</li>
                 </ul>
             </nav>
-
-        
             <section class="secao">
                 <h2>Painel do Usuário</h2>
-                <p>Painel do Usuário</p>
-                <p>nome=<span id="nomeUsuario">Pedro augusto</span></p>
-                <p>Curso:Analise De Desenvolvimento De Sistemas</p>
-                <p>Status:Ativo</p>
-                <H3>Alterar Nome</H3>
+                <p>Nome: <span id="nomeUsuario">Pedro Augusto</span></p>
+                <p>Curso: Desenvolvimento de Sistemas</p>
+                <p>Status: Ativo</p>
+                <hr>
+                <h3>Alterar Nome</h3>
                 <div class="formulario">
-                    <input type="text" name="inputNome"
-                    id="inputNome">
+                    <input type="text" name="inputNome" id="inputNome">
                     <button onclick="alterarNome()">Alterar</button>
                 </div>
-                 <H3>Alterar Curso</H3>
+                <h3>Alterar Curso</h3>
                 <div class="formulario">
-                    <input type="text" name="inputCurso"
-                    id="inputCurso">
+                    <input type="text" name="inputCurso" id="inputCurso">
                     <button onclick="alterarCurso()">Alterar</button>
                 </div>
-                 <hr>
-                <H3>Alterar Status</H3>
+                <h3>Alterar Status</h3>
                 <div class="formulario">
-                    <input type="text" name="inputStatus"
-                    id="inputStatus">
+                    <input type="text" name="inputStatus" id="inputStatus">
                     <button onclick="alterarStatus()">Alterar</button>
                 </div>
             </section>
         </div>
-            <foorter class="rodape">
-                <p>&copy; Desenvolvido por <strong>Pedro Augusto</strong></p>
-                <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/2111/2111463.png" alt="">Instagram</a>
-                <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733553.png" alt="">GitHub</a>
-            </foorter>
+        <footer class="rodape">
+            <p>&copy; Desenvolvido por <strong>Pedro Augusto</strong></p>
+            <div class="redes">
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/2111/2111463.png" alt="Ícone do Instagram">Instagram</a>
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733553.png" alt="Ícone do Github">Github</a>
             </div>
-            <script src="script.js"></script>
+        </footer>
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
+

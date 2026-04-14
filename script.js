@@ -1,9 +1,10 @@
 function alterarNome() {
     let trocarNome = document.getElementById('inputNome').value;
-    if (trocarNome==="") {
+
+    if (trocarNome === "") {
         alert('Digite um Nome')
-    }else {
-        document.getElementById('nomeUsuario').innerHTML
-        trocarNome;
+    } else {
+        document.getElementById('nomeUsuario').innerHTML = trocarNome;
     }
 }
+    
